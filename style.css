@@ -45,4 +45,58 @@ ul{
       display:flex;
       align-items: center;
   }
+
+  .bot-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
   
+  .bot-nav-link{
+      text-decoration: none;
+      color: black;
+    font-size: 16px;
+    line-height: 24px;
+
+  }
+
+h1{
+    font-size: 74px;
+
+}
+
+.hero-section-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 50px;
+    font-size: 30px;
+    padding: 50px;
+}
+.hero-section{
+    max-width: 1226px;
+    margin: 100px auto 100px auto;
+    padding: 40px 40px;
+    
+}
+
+.hero-section-img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-button{
+    display:flex;
+    align-items: center;
+    width: 100px;
+}
+
+.flex  {
+    display: flex;
+}
+
+.hero-section-div{
+    display: flex;
+    
+}
