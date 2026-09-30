@@ -72,15 +72,11 @@ h1{
     align-items: left;
     gap: 50px;
     font-size: 30px;
-    padding: 50px;
+    padding: 50px 50px 50px 0;
 }
 .hero-section{
-    max-width: 1226px;
-    margin: 100px auto 100px auto;
-    padding: 40px 40px;
-    
+    padding: 50px 0;
 }
-
 .hero-section-img{
     display: flex;
     justify-content: flex-end;
@@ -90,6 +86,7 @@ h1{
     display:flex;
     align-items: center;
     width: 100px;
+    
 }
 
 .flex  {
@@ -99,4 +96,21 @@ h1{
 .hero-section-div{
     display: flex;
     
+}
+.brand-section-div{
+    display: flex;
+    margin: 50px 0 50px 0;
+}
+
+.brand-section{
+    padding: 40px 0;
+}
+
+.brand-ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.models{
+    display: flex;
 }
