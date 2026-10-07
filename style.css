@@ -155,9 +155,10 @@ h1{
 }
 
 .top-footer{
-    padding: 40px;
+    margin: 40px;
     display: flex;
     gap: 35px;
+    justify-content: space-between;
 }
 .footer{
     background-color: white;
@@ -173,3 +174,12 @@ h1{
     flex-direction: column;
     gap: 20px;
 }
+
+.bottom-footer{
+    background-color: rgb(54, 52, 52);
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    color: white;
+}
+
